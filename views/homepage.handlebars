@@ -1,0 +1,24 @@
+{{#section "content"}}
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-8">
+        <h1>Welcome to Our Tech Blog</h1>
+        <hr>
+
+        {{#each posts as |post|}}
+          <div class="card mb-4">
+            <div class="card-body">
+              <h2><a href="/post/{{post.id}}" class="card-title">{{post.title}}</a></h2>
+              <p class="card-text">Posted by {{post.user.name}} on {{format_date post.date_created}}</p>
+              <p class="card-text">{{post.content}}</p>
+            </div>
+          </div>
+        {{/each}}
+
+        {{#unless posts.length}}
+          <p>No blog posts available.</p>
+        {{/unless}}
+      </div>
+    </div>
+  </div>
+{{/section}}
