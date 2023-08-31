@@ -1,0 +1,18 @@
+[
+    {
+      "title": "What is Sequelize?",
+      "content": "Sequelize is a Node. js-based Object Relational Mapper that makes it easy to work with MySQL, MariaDB, SQLite, PostgreSQL databases, and more. An Object Relational Mapper performs functions like handling database records by representing the data as objects.",
+      "user_id": 1
+    },
+    {
+      "title": "Five Fundamental Coding Concepts",
+      "content": "Learning to code not only prepares young minds for our increasingly tech-driven world, but also allows them to foster creativity, gain problem-solving skills, and improve their overall academic performance.While there are hundreds of computer programming languages in use today, most computer programming languages share the same foundational building blocks.",
+      "user_id": 1
+    },
+    {
+      "title": "Learning Python Programming",
+      "content": "Python is an interpreted, object-oriented, high-level programming language with dynamic semantics.",
+      "user_id": 1
+    }
+
+]
